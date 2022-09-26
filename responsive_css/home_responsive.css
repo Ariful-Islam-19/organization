@@ -19,6 +19,19 @@
 }
 
 
+/* Back To Top */
+
+@media(max-width:576px){
+    .back_to_top a {
+        padding: 5px 5px;
+        background: black;
+        color: white;
+        transition: 0.4s;
+    }
+   
+}
+
+
 /*--------Down Header Section ---------*/
 
 
@@ -85,19 +98,13 @@
 
 }
 
-
-/* Back To Top */
-
-@media(max-width:576px){
-    .back_to_top a {
-        padding: 5px 5px;
-        background: black;
-        color: white;
-        transition: 0.4s;
+@media(max-width:375px){
+    .blog_img img {
+        height: 110px;
+        width: 100%;
     }
    
 }
-
 /* Banner */
 
 @media(max-width:1004px){
@@ -329,6 +336,13 @@
     }
     .picture_in {
         width: 100%;
+    }
+}
+@media(max-width:376px){
+    
+    .w-100 {
+        width: 100%!important;
+        height: 300px;
     }
 }
 
